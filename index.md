@@ -14,7 +14,7 @@ hide: true
 <!--- Concatenation of site URL to frontmatter image  --->
 {% assign sprite_file = site.baseurl | append: page.image %}
 <!--- Has is a list variable containing mario metadata for sprite --->
-{% assign hash = site.data.mario_metadata %}  
+{% assign hash = site.data.mario_metadata %}
 <!--- Size width/height of Sprit images --->
 {% assign pixels = 256 %}
 
